@@ -1,6 +1,6 @@
 import MyNavbar from "@/components/Navbar";
 
-export default function HomePage() {
+export default function CartPage() {
   return (
     <>
       <MyNavbar />
