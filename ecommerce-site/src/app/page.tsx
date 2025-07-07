@@ -34,6 +34,33 @@ export default function Home() {
           </li>
         </ul>
       </section>
+
+      <section className="mt-5">
+        <h2 className="h4 mb-4">How to Buy</h2>
+        <ol
+          className="p-4 rounded-4 text-start mx-auto"
+          style={{
+            maxWidth: "550px",
+            background: "linear-gradient(to right, #ffecd2, #fcb69f)",
+          }}
+        >
+          <li>
+            <strong>Browse in Shop:</strong> Explore our collection and find something you love.
+          </li>
+          <li>
+            <strong>Add to Cart:</strong> Click "Add to Cart" on your favorite items.
+          </li>
+          <li>
+            <strong>Enter Info:</strong> Fill in your personal and shipping details at checkout.
+          </li>
+          <li>
+            <strong>Pay:</strong> Provide payment details and confirm your order.
+          </li>
+          <li>
+            <strong>Confirmation:</strong> Receive an order confirmation and wait for delivery!
+          </li>
+        </ol>
+      </section>
     </main>
   );
 }
