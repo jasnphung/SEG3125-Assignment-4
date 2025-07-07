@@ -4,21 +4,35 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <section className={styles.hero}>
-        <h1>Welcome to Closet Click</h1>
-        <p>Your one-stop shop for stylish, affordable fashion.</p>
-        <Link href="/shop" className={`${styles.ctaBtn} ${styles.primary}`}>
+    <main className="container text-center py-5">
+      <section
+        className="p-5 rounded-4 text-center"
+        style={{ background: "linear-gradient(to right, #fcb69f, #ffecd2)" }}
+      >
+        <h1 className="display-4 mb-3">Welcome to Closet Click</h1>
+        <p className="lead">
+          Your one-stop shop for stylish, affordable fashion.
+        </p>
+        <Link href="/shop" className="btn btn-dark mt-3 px-4 py-2">
           Shop Now
         </Link>
       </section>
 
-      <section className={styles.features}>
-        <h2>What’s New</h2>
-        <ul>
-          <li>🔥 Summer Sale: Up to 40% off selected items</li>
-          <li>🧢 New Arrivals: Fresh styles for every vibe</li>
-          <li>🚚 Free Shipping on orders over $50</li>
+      <section className="mt-5">
+        <h2 className="h4 mb-4">What’s New</h2>
+        <ul
+          className="list-unstyled text-start mx-auto"
+          style={{ maxWidth: "400px" }}
+        >
+          <li>
+            🔥 <strong>Summer Sale:</strong> Up to 40% off selected items
+          </li>
+          <li>
+            🧢 <strong>New Arrivals:</strong> Fresh styles for every vibe
+          </li>
+          <li>
+            🚚 <strong>Free Shipping:</strong> on orders over $50
+          </li>
         </ul>
       </section>
     </main>
