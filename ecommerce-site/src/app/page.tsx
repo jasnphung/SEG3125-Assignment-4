@@ -19,7 +19,7 @@ export default function Home() {
       </section>
 
       <section className="mt-5">
-        <h2 className="h4 mb-4">What's New</h2>
+        <h2 className="h4 mb-4">What&apos;s New</h2>
         <ul
           className="p-4 rounded-4 list-unstyled text-start mx-auto"
           style={{ maxWidth: "400px", background: "linear-gradient(to right, #fcb69f, #ffecd2)" }}

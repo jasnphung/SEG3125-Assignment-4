@@ -38,7 +38,7 @@ export default function SurveyPage() {
     <main className="container mt-5 mx-auto" style={{ maxWidth: "600px" }}>
       <h1 className="mb-4 text-center">Help Us Improve 📝</h1>
       <p className="text-center mb-4">
-        We'd love your feedback about your shopping experience at Closet Click.
+        We&apos;d love your feedback about your shopping experience at Closet Click.
       </p>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">

@@ -23,9 +23,9 @@ export default function AboutUsPage() {
         <li> - Customer-first communication</li>
       </ul>
 
-      <h2 className="h5 mt-5 mb-3">Let's Connect!</h2>
+      <h2 className="h5 mt-5 mb-3">Let&apos;s Connect!</h2>
       <p>
-        Have ideas or feedback? Fill out our <a href="/survey">survey</a>, we're always listening!
+        Have ideas or feedback? Fill out our <a href="/survey">survey</a>, we&apos;re always listening!
       </p>
     </main>
   );

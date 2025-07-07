@@ -28,7 +28,7 @@ const PRODUCTS: Product[] = [
   { id: 11, name: "Socks", category: "Accessories", size: "L", colour: "White", price: 8, image: "🧦" },
   { id: 12, name: "Coat", category: "Tops", size: "L", colour: "Grey", price: 110, image: "🧥" },
   { id: 13, name: "Sneakers", category: "Shoes", size: "10", colour: "White", price: 70, image: "👟" },
-  { id: 14, name: "Sun Hat", category: "Accessories", size: "One Size", colour: "Beige", price: 22, image: "👒" },
+  { id: 14, name: "Hat", category: "Accessories", size: "One Size", colour: "Beige", price: 22, image: "👒" },
   { id: 15, name: "Shorts", category: "Bottoms", size: "M", colour: "Blue", price: 28, image: "🩳" },
   { id: 16, name: "Jacket", category: "Tops", size: "L", colour: "Grey", price: 42, image: "🧥" },
   { id: 17, name: "T-Shirt", category: "Tops", size: "S", colour: "White", price: 20, image: "👕" },
