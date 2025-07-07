@@ -48,7 +48,7 @@ export default function Home() {
             <strong>Browse in Shop:</strong> Explore our collection and find something you love.
           </li>
           <li>
-            <strong>Add to Cart:</strong> Click "Add to Cart" on your favorite items.
+            <strong>Add to Cart:</strong> Click &quot;Add to Cart&quot; on your favorite items.
           </li>
           <li>
             <strong>Enter Info:</strong> Fill in your personal and shipping details at checkout.
