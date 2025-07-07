@@ -19,10 +19,10 @@ export default function Home() {
       </section>
 
       <section className="mt-5">
-        <h2 className="h4 mb-4">What’s New</h2>
+        <h2 className="h4 mb-4">What's New</h2>
         <ul
-          className="list-unstyled text-start mx-auto"
-          style={{ maxWidth: "400px" }}
+          className="p-4 rounded-4 list-unstyled text-start mx-auto"
+          style={{ maxWidth: "400px", background: "linear-gradient(to right, #fcb69f, #ffecd2)" }}
         >
           <li>
             🔥 <strong>Summer Sale:</strong> Up to 40% off selected items
@@ -31,7 +31,7 @@ export default function Home() {
             🧢 <strong>New Arrivals:</strong> Fresh styles for every vibe
           </li>
           <li>
-            🚚 <strong>Free Shipping:</strong> on orders over $50
+            🚚 <strong>Free Shipping:</strong> On orders over $50
           </li>
         </ul>
       </section>

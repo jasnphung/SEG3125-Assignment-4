@@ -18,15 +18,14 @@ export default function AboutUsPage() {
 
       <h2 className="h5 mt-5 mb-3">Our Values</h2>
       <ul className="list-unstyled">
-        <li> Quality craftsmanship</li>
-        <li> Sustainable and ethical sourcing</li>
-        <li> Customer-first communication</li>
+        <li> - Quality craftsmanship</li>
+        <li> - Sustainable and ethical sourcing</li>
+        <li> - Customer-first communication</li>
       </ul>
 
-      <h2 className="h5 mt-5 mb-3">Let’s Connect!</h2>
+      <h2 className="h5 mt-5 mb-3">Let's Connect!</h2>
       <p>
-        Have ideas or feedback? Fill out our <a href="/survey">survey</a> —
-        we’re always listening!
+        Have ideas or feedback? Fill out our <a href="/survey">survey</a>, we're always listening!
       </p>
     </main>
   );
